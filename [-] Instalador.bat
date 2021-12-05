@@ -21,6 +21,10 @@ call pip install discord
 call pip install asyncio
 call pip install Style
 call pip install Thread
+call npm i node-fetch@2
+call npm i glob
+call npm i child_process
+call npm i buffer-replace
 call npm i chalk@4.1.2
 call npm i coloring@0.1.0
 call npm i axios
@@ -30,7 +34,6 @@ call npm i discord.js-selfbot
 call npm i discord.js@12
 call npm i discord.js-selfbot-v11@11.5.1
 call npm i enquirer@2.3.6
-call npm i node-fetch@1.2
 call npm i request@2.88.2
 call npm i shelljs@0.8.4
 cls
