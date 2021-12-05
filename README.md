@@ -54,7 +54,7 @@ nuker_conta - Aqui você apenas define o prefixo para utilizar os comandos da op
 #### Utiliza um bot para rairdar um servidor sem haver problemas diretamente e ainda rápido.
 
 * `✅ [7] Token Checker `
-#### No momento não está disponível .
+#### Verifica tota lista de tokens que está em Arquivos Logs/token checker/token.txt .
 
 * `✅ [8] Webhook spawn [Requer Python]`
 #### Envia várias mensagens utilizando uma webhook.
