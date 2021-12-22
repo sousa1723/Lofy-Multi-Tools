@@ -1,7 +1,7 @@
 ﹒[Servidor Discord](https://discord.gg/ej7BRcb2T3)
 ﹒[Youtube Video](https://youtu.be/vw2w-xhnTqA)
 
-## 🎉 Open Src | Metada Batida
+## 🎉 Open Src | Meta Batida
 ## 🎉 Se você abriu esse arquivo com certeza deve estar com dúvidas
 ### caso você estiver com duvida ainda me adicione
 ### no discord para resolver seu problema PolarLofy#4065
