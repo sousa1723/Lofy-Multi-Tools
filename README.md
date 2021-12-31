@@ -1,21 +1,24 @@
+## 🎉 Se você abriu esse arquivo com certeza deve estar com dúvidas / 🎉 Open Src
+### caso você estiver com duvida entre no meu discord
 ﹒[Servidor Discord](https://discord.gg/ej7BRcb2T3)
+
+## 🎉 Video para te ajudar a usar.
 ﹒[Youtube Video](https://youtu.be/vw2w-xhnTqA)
 
-## 🎉 Open Src | Meta Batida
-## 🎉 Se você abriu esse arquivo com certeza deve estar com dúvidas
-### caso você estiver com duvida ainda me adicione
-### no discord para resolver seu problema PolarLofy#4065
-
-![image](https://cdn.discordapp.com/attachments/904214678870319164/917165436083273818/Screenshot_1.png)
+![image](https://cdn.discordapp.com/attachments/924702871948255246/926356654042279936/unknown.png)
 
 **De início esta ferramenta requer o node.js e python instalado
 você pode notar que na maioria as opções da ferramenta a [Requer Python] algo do tipo já o restante requerer apenas node.js
 para fazer o download disso você pode encontrar nos sites oficiais.**
 
-# https://nodejs.org/en/download/
-# https://www.python.org/downloads/
+#
+[Node.js](https://nodejs.org/en/download/)
+#
+[Python](https://www.python.org/downloads/)
+#
 
-**Continuando Abra a pasta “Arquivos Config” e edite todos os arquivos que estiver aí
+**Continuando Abra a pasta “Arquivos Config” e 
+edite todos os arquivos que estiver aí
 para ajudar a baixo a uma lista:**
 
 ### (Lembre-se de colocar tudo entre os aspas)
@@ -74,7 +77,7 @@ nuker_conta - Aqui você apenas define o prefixo para utilizar os comandos da op
 * `✅ [12] Derrubar uma conta [Requer Python]`
 #### Derruba uma conta do discord.
 
-* `✅ [13] Consulta CPF `
+* `✅ [13] Consulta CPF (Esta off no momento)`
 #### Consulta a maioria dos cpf que está disponível no banco de dados
 
 * `✅ [14] Consulta CPNJ`
