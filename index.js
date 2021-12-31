@@ -1,3 +1,12 @@
+Gradient = require("gradient-string")
+
+// Verificação de atualização & Burlador de “Rate Limited” alguma coisa assim.
+
+const Shell = require("shelljs");
+Shell.exec("start node Api/Bypass/rate_limit.js");
+
+
+
 tokenchecker = `
       
 
@@ -32,7 +41,6 @@ const { red, yellow, greenBright, yellowBright, magenta } = require("chalk");
 const readline = require("readline").createInterface({input: process.stdin,output: process.stdout});
 const request = require("request");
 const { prompt } = require("enquirer");
-const Shell = require("shelljs");
 const fs = require("fs");
 const msgDm = fs.readFileSync("Arquivos Config/mensagem.txt").toString();
 const message = fs.readFileSync("./Arquivos Config/mensagem.txt").toString();
@@ -53,34 +61,57 @@ process.on("unhandledRejection", a => {});
 
 
 console.clear();
-console.log(`
+
+console.log(Gradient.pastel(`
 
 
-                  █    ████▄ ▄████ ▀▄    ▄        ▄▄▄▄▀ ████▄ ████▄ █      ▄▄▄▄▄                     
-                  █    █   █ █▀   ▀  █  █      ▀▀▀ █    █   █ █   █ █     █     ▀▄ 
-                  █    █   █ █▀▀      ▀█           █    █   █ █   █ █   ▄  ▀▀▀▀▄   
-                  ███▄ ▀████ █        █           █     ▀████ ▀████ ███▄ ▀▄▄▄▄▀    
-                  ▀       █     ▄▀           ▀                      ▀          
-                  ▀                                                   
-                  
-                  
-                  
-`.magenta
-);
+
+         ██╗      ██████╗ ███████╗██╗   ██╗████████╗ ██████╗  ██████╗ ██╗     ███████╗
+         ██║     ██╔═══██╗██╔════╝╚██╗ ██╔╝╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
+         ██║     ██║   ██║█████╗   ╚████╔╝    ██║   ██║   ██║██║   ██║██║     ███████╗
+         ██║     ██║   ██║██╔══╝    ╚██╔╝     ██║   ██║   ██║██║   ██║██║     ╚════██║
+         ███████╗╚██████╔╝██║        ██║      ██║   ╚██████╔╝╚██████╔╝███████╗███████║
+         ╚══════╝ ╚═════╝ ╚═╝        ╚═╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
+
+
+
+`));
+
+// Opções + em breve
+
+var Q1 = "[1] Bot de divulgação [Bot]"
+var Q2 = "[2] Divulgação por uma conta [Conta]"
+var Q3 = "[3] Limpador de mensagem [Conta]"
+var Q4 = "[4] Clonar um servidor [Conta]"
+var Q5 = "[5] Nuker [Conta]"
+var Q6 = "[6] Nuker [Bot]"
+var Q7 = "[7] Token Checker"
+var Q0 = "[0] Sair"
+
+var Q8 = "[8] Webhook spawn [Requer Python]"
+var Q9 = "[9] Webhook delete [Requer Python]"
+var Q10 = "[10] Criar um Token Grabber (PY) [Requer Python]"
+var Q11 = "[11] Denúncias em massa (discord.gg) [Requer Python]"
+var Q12 = "[12] Derrubar uma conta [Requer Python]"
+var Q13 = "[13] Consulta CPF [OFF]"
+var Q14 = "[14] Consulta CPNJ"
+var Q15 = "[15] Criar um Token Grabber (JS) [Requer Python]"
 
 
 Main();
 function Main() {
   console.log(
     `
-         [1] Bot de divulgação [Bot]               |         [8] Webhook spawn [Requer Python]
-         [2] Divulgação por uma conta [Conta]      |         [9] Webhook delete [Requer Python]
-         [3] Limpador de mensagem [Conta]          |         [10] Criar um Token Grabber (PY) [Requer Python]
-         [4] Clonar um servidor [Conta]            |         [11] Denúncias em massa (discord.gg) [Requer Python]
-         [5] Nuker [Conta]                         |         [12] Derrubar uma conta [Requer Python]
-         [6] Nuker [Bot]                           |         [13] Consulta CPF 
-         [7] Token Checker                         |         [14] Consulta CPNJ
-         [0] Sair                                  |         [15] Criar um Token Grabber (JS) [Requer Python]
+         ${Q1}               |         ${Q8}
+         ${Q2}      |         ${Q9}
+         ${Q3}          |         ${Q10}
+         ${Q4}            |         ${Q11}
+         ${Q5}                         |         ${Q12}
+         ${Q6}                           |         ${Q13}
+         ${Q7}                         |         ${Q14}
+         ${Q0}                                  |         ${Q15}
+
+                                                             ${("Atualizado no dia 12/31/2021".yellow)}
                                                              ${("Criado por PolarLofy".green)}
          `.yellow
   );
@@ -383,13 +414,13 @@ function Main() {
         async function log(message, type) {
           switch (type) {
             case 1:
-              await console.log(`     [\u2713] ${message}`.brightGreen);
+              await console.log(`[\u2713] ${message}`.brightGreen);
               break;
             case 2:
-              await console.log(`     [\u26A0] ${message}`.yellow);
+              await console.log(`[\u26A0] ${message}`.yellow);
               break;
             case 3:
-              await console.log(`     [\u274C] ${message}`.red);
+              await console.log(`[\u274C] ${message}`.red);
               break;
           }
         }

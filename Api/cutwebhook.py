@@ -10,32 +10,30 @@ import threading
 def anim():
     l = ['|', '/', '-', '\\']
     for i in l+l+l:
-        sys.stdout.write('\r' + f'{Fore.CYAN}[>] Carregando Spammer {Fore.RESET}'+i)
+        sys.stdout.write('\r' + f'     {Fore.CYAN}[>] Carregando Spammer {Fore.RESET}'+i)
         sys.stdout.flush()
         time.sleep(0.2)
 
 def anim2():
     l = ['|', '/', '-', '\\']
     for i in l+l+l:
-        sys.stdout.write('\r' + f'{Fore.RED}[x] Nenhum webhook especificado, saindo {Fore.RESET}'+i)
+        sys.stdout.write('\r' + f'     {Fore.RED}[x] Nenhum webhook especificado, saindo {Fore.RESET}'+i)
         sys.stdout.flush()
         time.sleep(0.2)
 
 def anim3():
     l = ['|', '/', '-', '\\']
     for i in l+l+l:
-        sys.stdout.write('\r' + f'{Fore.GREEN}[>] Iniciando Spam {Fore.RESET}'+i)
+        sys.stdout.write('\r' + f'     {Fore.GREEN}[>] Iniciando Spam {Fore.RESET}'+i)
         sys.stdout.flush()
         time.sleep(0.2)
 
 
-
-#setting up
 os.system('cls')
 anim()
-os.system("title [SPAMMER!]")
+os.system("title [SPW!]")
 os.system('cls')
-defaulthookname = 'Webhook Spammer!'
+defaulthookname = 'Webhook SPWN!'
 defaultmessage = 'Você recebeu spam! :scream: '
 
 print(f"""{colorama.Fore.MAGENTA}
@@ -113,5 +111,3 @@ for x in range(threads):
         target=send(webhook, message, hookname), args=(1,))
     thread.start()
 print(f'{Fore.RED}[]')
-
-#created by doop#0001 / github.com/@7uk

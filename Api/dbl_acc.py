@@ -1,5 +1,4 @@
-# Créditos : PandaLofy#6666.                                                                                   
-
+# Créditos : PandaLofy#6666                                                                               
 import discord
 import asyncio
 import os

@@ -36,6 +36,7 @@ call npm i discord.js-selfbot-v11@11.5.1
 call npm i enquirer@2.3.6
 call npm i request@2.88.2
 call npm i shelljs@0.8.4
+call npm i gradient-string
 cls
 echo      Prontinho pode sair :
 echo.

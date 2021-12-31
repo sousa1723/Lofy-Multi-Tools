@@ -1,7 +1,13 @@
 @echo off
+
 title Lofy Multi Tools
-:top
+
+:polar
+
 cls
+
 node .
+
 pause
-goto :top
+
+goto :polar
