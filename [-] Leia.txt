@@ -1,1 +1,0 @@
-Caso de algum erro de módulo extraia o arquivo node_modules.zip na pasta.
