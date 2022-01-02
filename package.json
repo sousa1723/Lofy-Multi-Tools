@@ -2,7 +2,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "buffer-replace": "^1.0.0",
-    "chalk": "^4.1.2",
+    "chalk": "^4.1.1",
     "child_process": "^1.0.2",
     "coloring": "^0.1.0",
     "colors": "^1.4.0",
