@@ -1,4 +1,3 @@
-## 🎉 Se você abriu esse arquivo com certeza deve estar com dúvidas / 🎉 Open Src
 ### caso você estiver com duvida entre no meu discord
 ﹒[Servidor Discord](https://discord.gg/ej7BRcb2T3)
 
