@@ -1,13 +1,7 @@
 @echo off
-
 title Lofy Multi Tools
-
 :polar
-
 cls
-
-node .
-
+node index.js
 pause
-
 goto :polar
