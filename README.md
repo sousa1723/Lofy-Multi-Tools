@@ -1,5 +1,5 @@
-### caso você estiver com duvida entre no meu discord
-﹒[Servidor Discord](https://discord.gg/ej7BRcb2T3)
+### Caso você estiver com duvida entre no meu discord
+﹒[Servidor Discord](https://discord.gg/4Szhr7kMJg)
 
 ## 🎉 Video para te ajudar a usar.
 ﹒[Youtube Video](https://youtu.be/vw2w-xhnTqA)
