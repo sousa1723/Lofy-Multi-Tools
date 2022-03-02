@@ -81,16 +81,16 @@ process.on("unhandledRejection", a => {});
 
 console.clear();
 
-console.log(Gradient.pastel(`
+console.log(Gradient.retro(`
 
 
 
-         ██╗      ██████╗ ███████╗██╗   ██╗████████╗ ██████╗  ██████╗ ██╗     ███████╗
-         ██║     ██╔═══██╗██╔════╝╚██╗ ██╔╝╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
-         ██║     ██║   ██║█████╗   ╚████╔╝    ██║   ██║   ██║██║   ██║██║     ███████╗
-         ██║     ██║   ██║██╔══╝    ╚██╔╝     ██║   ██║   ██║██║   ██║██║     ╚════██║
-         ███████╗╚██████╔╝██║        ██║      ██║   ╚██████╔╝╚██████╔╝███████╗███████║
-         ╚══════╝ ╚═════╝ ╚═╝        ╚═╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
+                 ██╗      ██████╗ ███████╗██╗   ██╗████████╗ ██████╗  ██████╗ ██╗     ███████╗
+                 ██║     ██╔═══██╗██╔════╝╚██╗ ██╔╝╚══██╔══╝██╔═══██╗██╔═══██╗██║     ██╔════╝
+                 ██║     ██║   ██║█████╗   ╚████╔╝    ██║   ██║   ██║██║   ██║██║     ███████╗
+                 ██║     ██║   ██║██╔══╝    ╚██╔╝     ██║   ██║   ██║██║   ██║██║     ╚════██║
+                 ███████╗╚██████╔╝██║        ██║      ██║   ╚██████╔╝╚██████╔╝███████╗███████║
+                 ╚══════╝ ╚═════╝ ╚═╝        ╚═╝      ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝
 
 
 
@@ -98,17 +98,17 @@ console.log(Gradient.pastel(`
 
 // Opções + em breve
 
-var Q1 = "[1] Bot de divulgação [Bot]"
-var Q2 = "[2] Divulgação por uma conta [Conta]"
-var Q3 = "[3] Limpador de mensagem [Conta]"
-var Q4 = "[4] Clonar um servidor [Conta]"
-var Q5 = "[5] Nuker [Conta]"
-var Q6 = "[6] Nuker [Bot]"
-var Q7 = "[7] Token Checker"
-var Q0 = "[0] Sair"
+var Q1 = "[01] Bot de divulgação [Bot]"
+var Q2 = "[02] Divulgação por uma conta [Conta]"
+var Q3 = "[03] Limpador de mensagem [Conta]"
+var Q4 = "[04] Clonar um servidor [Conta]"
+var Q5 = "[05] Nuker [Conta]"
+var Q6 = "[06] Nuker [Bot]"
+var Q7 = "[07] Token Checker"
+var Q0 = "[0] Sair "
 
-var Q8 = "[8] Webhook spawn [Requer Python]"
-var Q9 = "[9] Webhook delete [Requer Python]"
+var Q8 = "[08] Webhook spawn [Requer Python]"
+var Q9 = "[09] Webhook delete [Requer Python]"
 var Q10 = "[10] Criar um Token Grabber (PY) [Requer Python]"
 var Q11 = "[11] Denúncias em massa (discord.gg) [Requer Python]"
 var Q12 = "[12] Derrubar uma conta [Requer Python]"
@@ -131,8 +131,8 @@ function Main() {
          ${Q7}                         |         ${Q14}
          ${Q0}                                  |         ${Q15}
 
-                                                             ${("Atualizado no dia 2/25/2022".yellow)}
-                                                             ${("Criado por PolarLofy".green)}
+                                                             ${("[!] Atualizado no dia 03/02/2022".green)}
+                                                             ${("[C] Criado por PolarLofy".green)}
          `.yellow
     );
     
