@@ -1,86 +1,90 @@
-### Caso você estiver com duvida entre no meu discord
-﹒[Servidor Discord](https://discord.gg/4Szhr7kMJg)
+<br/>
+<div align="center">
+  <a href="https://github.com/PolarLofy/Lofy-Multi-Tools">
+    <img src="https://cdn.discordapp.com/emojis/929873029117407262.webp?size=96&quality=lossless" alt="Logo" width="120" height="120">
+  </a>
+  
+  <h2 align="center">Lofy Multi Tools</h3>
 
-## 🎉 Video para te ajudar a usar.
-﹒[Youtube Video](https://youtu.be/vw2w-xhnTqA)
+  <p align="center">
+    Novo selfbot com muitas opções.
+    <br />
+    <br />
+    <a href="https://youtu.be/vw2w-xhnTqA">Video</a>
+    ·
+    <a href="https://discord.gg/4Szhr7kMJg">Discord</a>
+  </p>
+</div>
 
-![image](https://cdn.discordapp.com/attachments/924702871948255246/926356654042279936/unknown.png)
+---------------------------------------
 
-**De início esta ferramenta requer o node.js e python instalado
-você pode notar que na maioria as opções da ferramenta a [Requer Python] algo do tipo já o restante requerer apenas node.js
-para fazer o download disso você pode encontrar nos sites oficiais.**
+![image](https://cdn.discordapp.com/attachments/947600089101271082/948723490821906492/unknown.png)
 
-#
-[Node.js](https://nodejs.org/en/download/)
-#
-[Python](https://www.python.org/downloads/)
-#
+### Opções 🔍
 
-**Continuando Abra a pasta “Arquivos Config” e 
-edite todos os arquivos que estiver aí
-para ajudar a baixo a uma lista:**
+- Bot de divulgação
+- Divulgação por uma conta
+- Limpador de mensagem
+- Clonar um servidor
+- Nuker (Usando Token de Conta)
+- Nuker (Usando Token de Bot)
+- Token Checker
+- Webhook spawn
+- Webhook delete
+- Criar um Token Grabber (Em python)
+- Criar um Token Grabber (Em Javascript)
+- Denuncias em massa
+- Derrubar uma conta
+- Consulta CPF
+- Consulta CPNJ
 
-### (Lembre-se de colocar tudo entre os aspas)
+---------------------------------------
+
+### ❗・Important
+* De início esta ferramenta requer o [node.js](https://nodejs.org/en/download/) e o [python](https://www.python.org/downloads/)
+* Você pode notar que na maioria das opções da ferramenta tem ao lado [Requer Python] isso significa que ele utilizará o linguagem python para rodar a ferramenta já o restante que não a nada ao lado requer apenas o node.js para rodar.
+
+---------------------------------------
+
+#### 🔧・Continuando Abra a pasta “Arquivos Config” 
+* Edite todos os arquivos que estiver lá.
+* Para ajudar a baixo a um exemplo
+
+#### Config.json
+
 ```
-config.json [
 token bot - Aqui e o token do bot , lembre-se de ativar as opções do Privileged Gateway 
 Intents no painel do bot.
 token conta - Token de uma conta do discord , o recomendado é utilizar uma fake de acordo com as opções que você utilizar na ferramenta
 Tempo - O tempo é usado na opção 2 , e o tempo de esperar para continuar enviando mensagem para as pessoas.
-gatilho - E uma palavra chave para ser usada na opção 3 , para limpar as mensagens.]
-
-mensagem.txt
-Isso é definido a mensagem que você envia nas opções 1 & 2.
-
-nuker bot.json - Aqui não há nada de importante
-você pode mudar algumas coisas se quiser, porém segue o exemplo que está lá dentro.
-
-nuker_conta - Aqui você apenas define o prefixo para utilizar os comandos da opção 5.
+gatilho - E uma palavra chave para ser usada na opção 3 , para limpar as mensagens.
 ```
 
-### Opções 🔍
+#### mensagem.txt
 
-* `✅ [1] Bot de divulgação [Bot]  `
-#### Um bot envia mensagem para todas as pessoas presentes no servidor.
+```
+Isso é definido a mensagem que você envia nas opções 1 & 2.
+```
 
-* `✅ [2] Divulgação por uma conta`
-#### Utiliza uma conta do discord para enviar mensagem para as pessoas com um tempo.
+#### nuker bot.json
 
-* `✅ [3] Limpador de mensagem`
-#### Utilize um gatilho para limpar todas as mensagens que você enviou em um canal/grupo específico.
+```
+Aqui não há nada de importante
+você pode mudar algumas coisas se quiser, porém segue o exemplo que está lá dentro.
+```
 
-* `✅ [4] Clonar um servidor [Conta]`
-#### Copia um servidor inteiro.
+#### nuker bot.json
 
-* `✅ [5] Nuker [Conta]`
-#### Usa uma conta do discord para raidar um servidor.
+```
+Aqui não há nada de importante
+você pode mudar algumas coisas se quiser, porém segue o exemplo que está lá dentro.
+```
 
-* `✅ [6] Nuker [Bot]  `
-#### Utiliza um bot para rairdar um servidor sem haver problemas diretamente e ainda rápido.
+### nuker_conta.json
 
-* `✅ [7] Token Checker `
-#### Verifica tota lista de tokens que está em Arquivos Logs/token checker/token.txt .
+```
+Aqui você apenas define o prefixo para utilizar os comandos da opção 5.
+```
 
-* `✅ [8] Webhook spawn [Requer Python]`
-#### Envia várias mensagens utilizando uma webhook.
 
-* `✅ [9] Webhook delete [Requer Python]`
-#### Deletar qualquer webhook.
-
-* `✅ [10] Criar um Token Grabber (PY) [Requer Python]`
-#### Cria um token grabber em python e salva em Api\temp.
-
-* `✅ [11] Denuncias em massa (discord.gg) [Requer Python]`
-#### Denuncia uma mensagem rapidamente ate que a api caia.
-
-* `✅ [12] Derrubar uma conta [Requer Python]`
-#### Derruba uma conta do discord.
-
-* `✅ [13] Consulta CPF (Esta off no momento)`
-#### Consulta a maioria dos cpf que está disponível no banco de dados
-
-* `✅ [14] Consulta CPNJ`
-#### Consulta a maioria dos cpnj que está disponível no banco de dados
-
-* `✅ [15] Criar um Token Grabber (JS) [Requer Python]`
-#### Cria um token grabber em javascript e salva em Api\temp.
+---------------------------------------
