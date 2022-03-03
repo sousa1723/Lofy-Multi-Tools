@@ -40,7 +40,7 @@
 
 ---------------------------------------
 
-### ❗・Important
+### ❗・Importante
 * De início esta ferramenta requer o [node.js](https://nodejs.org/en/download/) e o [python](https://www.python.org/downloads/)
 * Você pode notar que na maioria das opções da ferramenta tem ao lado [Requer Python] isso significa que ele utilizará o linguagem python para rodar a ferramenta já o restante que não a nada ao lado requer apenas o node.js para rodar.
 
