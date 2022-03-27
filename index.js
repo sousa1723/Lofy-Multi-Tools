@@ -1,9 +1,6 @@
 Gradient = require("gradient-string")
 const Shell = require("shelljs");
 
-// Verificação de atualização & Burlador de “Rate Limited” alguma coisa assim.
-Shell.exec(`start node Api/Bypass/rate_limit.js`);
-
 tokenchecker = `
       
 
