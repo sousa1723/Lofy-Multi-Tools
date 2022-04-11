@@ -1,7 +1,7 @@
 @echo off
-title Lofy Multi Tools
-:polar
+title Sousa-Infinity Tools
+:infinity.sousa
 cls
 node index.js
 pause
-goto :polar
+goto :sousa
