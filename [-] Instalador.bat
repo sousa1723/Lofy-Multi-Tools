@@ -1,11 +1,11 @@
 @echo off
 color A
-title Lofy Multi Tools
+title Infinity Tools
 echo.
 echo.
 echo.
 echo.
-echo      Bem vindo ao instalador do Lofy Multi Tools
+echo      Bem vindo ao instalador do Infinity Multi Tools
 echo      Voce esta prestes a instalar todos os requisitos
 echo      Em caso de duvida entre no grupo do discord.
 echo      Este processo pode demorar dependendo de sua maquina
